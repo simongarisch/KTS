@@ -1,0 +1,4 @@
+jupyter-book==2.0.0b3
+notebook==7.4.5
+ipykernel==6.29.5
+kotlin-jupyter-kernel==0.15.0.598
