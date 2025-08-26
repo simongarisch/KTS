@@ -4,9 +4,14 @@ from collections import namedtuple
 
 TextSwap = namedtuple("TextSwap", ["old", "new"])
 
-# Made with MyST
 swaps = list()
-swaps.append(TextSwap("\"/build/", "\"build/"))
+# adjusting paths
+swaps.append(TextSwap('"/build/', '"build/'))
+swaps.append(TextSwap('import "build/manifest', 'import "/build/manifest'))
+swaps.append(TextSwap('"build/root', '"/build/root'))
+swaps.append(TextSwap('"build/routes', '"/build/routes'))
+swaps.append(TextSwap('"build/entry', '"/build/entry'))
+# remove made with myst
 swaps.append(TextSwap("Made with MyST", ""))
 
 file_path = os.path.join("docs", "index.html")
