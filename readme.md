@@ -39,6 +39,7 @@ First copy html build to docs folder
 
 ```bash
 cp -r ./_build/html/. docs/
+python -m http.server -d docs
 ```
 
 Go to repository settings -> pages -> github pages build and deployment.
