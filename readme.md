@@ -44,3 +44,5 @@ python -m http.server -d docs
 ```
 
 Go to repository settings -> pages -> github pages build and deployment.
+
+There are [different options](https://stackoverflow.com/questions/36782467/set-subdirectory-as-website-root-on-github-pages) for deployment.
