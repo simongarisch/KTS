@@ -32,3 +32,12 @@ jupyter book build --html
 ```bash
 python -m http.server -d _build/html
 ```
+
+## github pages ##
+
+First copy html build to docs folder 
+```bash
+cp -r ./_build/html/. docs/
+```
+
+Go to repository settings -> pages -> github pages build and deployment.
