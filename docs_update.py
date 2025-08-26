@@ -5,8 +5,7 @@ from collections import namedtuple
 TextSwap = namedtuple("TextSwap", ["old", "new"])
 
 swaps = list()
-swaps.append(TextSwap("/build/_shared/", "build/_shared/"))
-swaps.append(TextSwap("/build/_assets/", "build/_assets/"))
+swaps.append(TextSwap("\"/build/", "\"build/"))
 
 file_path = os.path.join("docs", "index.html")
 
