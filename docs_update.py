@@ -11,6 +11,7 @@ swaps.append(TextSwap('import "build/manifest', 'import "/build/manifest'))
 swaps.append(TextSwap('"build/root', '"/build/root'))
 swaps.append(TextSwap('"build/routes', '"/build/routes'))
 swaps.append(TextSwap('"build/entry', '"/build/entry'))
+swaps.append(TextSwap('"/myst-theme.css"', '"myst-theme.css"'))
 # remove made with myst
 swaps.append(TextSwap("Made with MyST", ""))
 
