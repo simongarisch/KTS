@@ -38,7 +38,8 @@ python -m http.server -d _build/html
 First copy html build to docs folder
 
 ```bash
-cp -r ./_build/html/. docs/
+chmod +x docs_update.sh
+./docs_update.sh
 python -m http.server -d docs
 ```
 
