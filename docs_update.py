@@ -4,8 +4,10 @@ from collections import namedtuple
 
 TextSwap = namedtuple("TextSwap", ["old", "new"])
 
+# Made with MyST
 swaps = list()
 swaps.append(TextSwap("\"/build/", "\"build/"))
+swaps.append(TextSwap("Made with MyST", ""))
 
 file_path = os.path.join("docs", "index.html")
 
