@@ -35,14 +35,4 @@ python -m http.server -d _build/html
 
 ## github pages ##
 
-First copy html build to docs folder
-
-```bash
-chmod +x docs_update.sh
-./docs_update.sh
-python -m http.server -d docs
-```
-
-Go to repository settings -> pages -> github pages build and deployment.
-
-There are [different options](https://stackoverflow.com/questions/36782467/set-subdirectory-as-website-root-on-github-pages) for deployment.
+See [this discussion](https://datascientistforai.github.io/DataScienceStudy/publish/gh-pages.html?highlight=github%20pages) on deployment.
