@@ -54,6 +54,7 @@ jobs:
     - name: List directories
       run: |
         ls
+        ls _build
 
     # deploy the book
     - name: Upload artifact
