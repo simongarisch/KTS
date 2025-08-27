@@ -6,6 +6,7 @@ TextSwap = namedtuple("TextSwap", ["old", "new"])
 
 swaps = list()
 # adjusting paths
+swaps.append(TextSwap('"./build/', '"build/'))
 swaps.append(TextSwap('"/build/', '"build/'))
 swaps.append(TextSwap('import "build/manifest', 'import "/build/manifest'))
 swaps.append(TextSwap('"build/root', '"/build/root'))
