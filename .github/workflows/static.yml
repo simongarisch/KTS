@@ -29,6 +29,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
     # Install dependencies
     - name: Set up Python 3.12
       uses: actions/setup-python@v1
@@ -45,8 +48,6 @@ jobs:
         jupyter-book build --html
 
     # deploy the book
-    - name: Checkout
-      uses: actions/checkout@v4
     - name: Setup Pages
       uses: actions/configure-pages@v5
     - name: Upload artifact
