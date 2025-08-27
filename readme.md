@@ -35,4 +35,11 @@ python -m http.server -d _build/html
 
 ## github pages ##
 
-See [this discussion](https://datascientistforai.github.io/DataScienceStudy/publish/gh-pages.html?highlight=github%20pages) on deployment.
+[You'll need subtree](https://codeengineered.com/blog/how-to-install-git-subtree/)
+
+We can then [deploy a sub-folder](https://gist.github.com/cobyism/4730490)
+
+```
+jupyter-book build --html
+git subtree push --prefix _build/html origin gh-pages
+```
