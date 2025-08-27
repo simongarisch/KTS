@@ -50,10 +50,12 @@ jobs:
       run: |
         jupyter-book build --all
 
-    # list directories
     - name: List directories
       run: |
         ls
+
+    - name: List _build directory
+      run: |
         ls _build
 
     # deploy the book
