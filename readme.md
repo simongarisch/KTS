@@ -39,7 +39,12 @@ python -m http.server -d _build/html
 
 We can then [deploy a sub-folder](https://gist.github.com/cobyism/4730490)
 
+Also see [git releases](https://www.kernel.org/pub/software/scm/git/)
+
 ```
 jupyter-book build --html
+git version
+sudo apt update
+sudo apt install git=<full_version_string>
 git subtree push --prefix _build/html origin gh-pages
 ```

@@ -54,10 +54,6 @@ jobs:
       run: |
         ls _build
 
-    - name: Make file modifications
-      run: |
-        python modify_html.py
-
     # deploy the book
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
