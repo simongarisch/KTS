@@ -40,4 +40,5 @@ See the [jupyterbook docs on publishing](https://jupyterbook.org/en/stable/start
 ```
 jupyter-book build --html
 pip install ghp-import
+ghp-import -n -p -f _build/html
 ```
