@@ -13,6 +13,8 @@ sdk install kotlin
 kotlinc -version
 
 # kotlin jupyter kernel
-pip install kotlin-jupyter-kernel
+sudo pip install jupyter
+sudo pip install jupyterlab
+sudo pip install kotlin-jupyter-kernel
 sudo python -m kotlin_kernel fix-kernelspec-location
 jupyter kernelspec list
