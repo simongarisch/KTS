@@ -11,3 +11,8 @@ pip install -r requirements.txt
 # install kotlin lang
 sdk install kotlin
 kotlinc -version
+
+# kotlin jupyter kernel
+pip install kotlin-jupyter-kernel
+sudo python -m kotlin_kernel fix-kernelspec-location
+jupyter kernelspec list
