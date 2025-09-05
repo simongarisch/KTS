@@ -17,6 +17,7 @@ project:
     # https://datascientistforai.github.io/DataScienceStudy/customize/toc.html#defining-chapters-and-parts-in-toc-yml
     - file: ./notebooks/Intro.ipynb
     - file: ./notebooks/Numbers.ipynb
+    - file: ./notebooks/Loopy.ipynb
 site:
   template: book-theme
   # options:
