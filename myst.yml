@@ -18,6 +18,7 @@ project:
     - file: ./notebooks/Intro.ipynb
     - file: ./notebooks/Numbers.ipynb
     - file: ./notebooks/Loopy.ipynb
+    - file: ./notebooks/Strings.ipynb
 site:
   template: book-theme
   # options:
